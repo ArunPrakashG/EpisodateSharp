@@ -1,5 +1,5 @@
 # EpisodateSharp
- [Nuget](https://www.nuget.org/packages/EpisodateSharp/)
+ [Nuget](https://www.nuget.org/packages/EpisodateSharp/) | [Direct Download](https://github.com/ArunPrakashG/EpisodateSharp/releases/download/1.0.0/EpisodateSharp.dll)
  
 Unoffical .NET Standard library to wrap around `https://www.episodate.com/api` API.
 

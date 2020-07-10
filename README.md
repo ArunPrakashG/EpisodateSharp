@@ -27,6 +27,7 @@ using(EpisodateClient client = new EpisodateClient()) {
 
 ## Dependencies
 * Newtonsoft.Json - for parsing api response.
+* System.Collections.Immutable - for Immutable array.
 
 ## License
 The MIT License (MIT)

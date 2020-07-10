@@ -21,7 +21,7 @@ using(EpisodateClient client = new EpisodateClient()) {
 				}
 
 				Console.ReadKey();
-}
+			}
 ```
 
 ## Dependencies

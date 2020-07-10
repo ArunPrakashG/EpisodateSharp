@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>ArunPrakashG</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>.NET Standard wrapper library to interact with https://www.episodate.com/api API</Description>
+    <PackageProjectUrl>https://github.com/ArunPrakashG/EpisodateSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ArunPrakashG/EpisodateSharp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>csharp, dotnet, episodate, tv-show, library</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
+  </ItemGroup>
 
 </Project>

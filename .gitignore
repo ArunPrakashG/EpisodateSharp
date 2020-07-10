@@ -268,3 +268,4 @@ __pycache__/
 *.pyc
 *.bin
 *.db
+.vs/EpisodateSharp/v16/.suo

@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpisodateSharp", "EpisodateSharp\EpisodateSharp.csproj", "{6E909475-0873-4CC3-8398-947EE0463E26}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D9F7DB9-9FAB-4ABF-9D6C-379E5A0405C2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpisodateSharp.Demo", "EpisodateSharp.Demo\EpisodateSharp.Demo.csproj", "{220F2778-5AE7-4893-8705-FCDFC1A8BE0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{6E909475-0873-4CC3-8398-947EE0463E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E909475-0873-4CC3-8398-947EE0463E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E909475-0873-4CC3-8398-947EE0463E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220F2778-5AE7-4893-8705-FCDFC1A8BE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220F2778-5AE7-4893-8705-FCDFC1A8BE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220F2778-5AE7-4893-8705-FCDFC1A8BE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220F2778-5AE7-4893-8705-FCDFC1A8BE0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,7 @@ using(EpisodateClient client = new EpisodateClient()) {
 
 				if(popularShows == null) {
 					Console.WriteLine("Request failed!");
+					Console.WriteLine("Check your connection and restart!");
 					Console.WriteLine("Press any key to exit...");
 					Console.ReadKey();
 				}

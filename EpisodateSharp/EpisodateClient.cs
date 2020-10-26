@@ -81,10 +81,10 @@ namespace EpisodateSharp {
 		/// <param name="pageNumberToFetch">The page to fetch.</param>
 		/// <returns><see cref="ShowDetails"/></returns>
 		/// <exception cref="ArgumentNullException"></exception>
-		public async Task<ShowDetails> SearchShowAsync(string searchQuery, int pageNumberToFetch = 1) {
+		public async Task<SearchResult> SearchShowAsync(string searchQuery, int pageNumberToFetch = 1) {
 			pageNumberToFetch = pageNumberToFetch <= 0 ? 1 : pageNumberToFetch;
 			string requestRelativeUrl = $"api/search?q={searchQuery}&page={pageNumberToFetch}";
-			return await Requester.InternalRequestAsObject<ShowDetails>(requestRelativeUrl).ConfigureAwait(false);
+			return await Requester.InternalRequestAsObject<SearchResult>(requestRelativeUrl).ConfigureAwait(false);
 		}
 
 		/// <summary>

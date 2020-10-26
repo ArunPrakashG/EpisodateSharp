@@ -79,7 +79,7 @@ namespace EpisodateSharp {
 		/// </summary>
 		/// <param name="searchQuery">The search query. (show-name, id...)</param>
 		/// <param name="pageNumberToFetch">The page to fetch.</param>
-		/// <returns><see cref="ShowDetails"/></returns>
+		/// <returns><see cref="SearchResult"/></returns>
 		/// <exception cref="ArgumentNullException"></exception>
 		public async Task<SearchResult> SearchShowAsync(string searchQuery, int pageNumberToFetch = 1) {
 			pageNumberToFetch = pageNumberToFetch <= 0 ? 1 : pageNumberToFetch;
